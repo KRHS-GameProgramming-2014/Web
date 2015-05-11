@@ -20,9 +20,9 @@ bgImage = pygame.image.load("rsc/bgorg.jpg")
 
 
 
-    bgColor = r,g,b
-            screen.fill(bgColor)
-            screen.blit(bgImage, bgRect)
+    #bgColor = r,g,b
+            #screen.fill(bgColor)
+            #screen.blit(bgImage, bgRect)
 
-    pygame.display.flip()
-            clock.tick(60)
+    #pygame.display.flip()
+            #clock.tick(60)
