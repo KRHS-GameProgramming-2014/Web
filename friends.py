@@ -1,7 +1,8 @@
 import pygame, math
 
-class friend():
+class Friend(pygame.sprite.Sprite):
     def __init__(self, image, speed = [0,0], pos = [0,0]):
+        pygame.sprite.Sprite.__init__(self, self.containers)
         #if friend == "kik":
             #self.image = pygame.image.load ""
             #self.color = color
@@ -26,6 +27,7 @@ class friend():
                             
     def collidebrowser(self, other):
         if self != other:
-            if collidebrowser 
+            pass
+            #if collidebrowser 
             
 
