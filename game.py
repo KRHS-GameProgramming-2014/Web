@@ -4,7 +4,7 @@ from Player import Browser
 from BackGround import BackGround
 
 pygame.init()
-
+ 
 clock = pygame.time.Clock()
 
 width = 800 
@@ -29,6 +29,7 @@ BackGround("rsc/bgorg.jpg")
 run = True
 while True:
     player = Browser((200,200))
+    friends = Friend ((300,300))
     while run:
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT: sys.exit()
