@@ -43,10 +43,9 @@ class Browser(pygame.sprite.Sprite):
                 self.didBounceY = True
                 #print "hit xWall"
     def collidefriend(self, other):
-		if not self.invincible:
-			if self!= other:
-				#print "trying to hit friend"
-		
+        if not self.invincible:
+            if self!= other:
+                #print "trying to hit friend"
     
     def go(self, direction):
         if direction == "up":
